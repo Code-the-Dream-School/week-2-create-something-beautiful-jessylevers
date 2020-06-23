@@ -1,0 +1,9 @@
+1. Meta Data Tips From Google => https://support.google.com/webmasters/answer/35624?hl=en , https://support.google.com/webmasters/answer/79812
+2. CSS Basics Guide => https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+3. CSS Tricks=>  https://css-tricks.com/almanac
+
+
+Feedback:
+
+1. Initial directions are a bit confusing I first thought I was just making a responsive column that would become a row when resized only to realize that I needed a row and column each. 
+2. I think this assignment would have been better to broken down into two assignmets in order for students to really absorb the content that's being taught here. I am new to CSS and I didn't have any real time to watch the 7hr CSS basics lesson along with completing this assignment along with the additionally paired videos to go with this lesson. I spent more time working on this assignmet which led me to doing more "google-based" research in order to complete it (I used the actual resources listed above) and this cut down on my ability to truly absorb and understand what I am doing as opposed to quickly learning on the fly and producing mediocre results. I feel like I'm doing more copy pasta to try to keep up with deadlines than I am actually learning what I am doing and why I am doing it. 

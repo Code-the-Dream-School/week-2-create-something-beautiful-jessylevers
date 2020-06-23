@@ -1,5 +1,107 @@
-* {
-margin: 0;
-padding: 0;
+  /* nav menu */
+  nav{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin:0;
+      padding: 0;
+      height: 20px;
+  }
+  nav ul, nav li {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+  }
+nav ul{
+    background: purple;
+      list-style: none;
+  }
+  nav li{
+    display: inline;
+      position: relative;
+      padding: 10px 25px;
+  }
+nav a{
+      background: purple;
+      color: white;
+      font: "Oswald";
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+nav li:hover a{
+      background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  }
+  .giphy-embed{
+    border-radius: 50%;
+    margin: 3px;
+  }
+  .gradient-bg{
+     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  }
+  .placeholder{
+      color:purple;
+      width: 100px;
+      height: 100px;
+  }
+.profile-img{
+    max-width: 33x;
+    max-height: 33px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+/* main */
+.main-title{
+    margin-top: 50px;
+}
+/* top column */
+.top-left{
+    float:left;
+    padding: 10px;
+    margin: 20px;
+}
+.top-right{
+    float:right;
+    padding: 10px;
+    margin: 20px;
+}
+/* middle row sections  */
+.section{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+/* main title */
+.main-title{
+    font-family: 'Oswald', sans-serif;
 }
 
+/* headings and paragraphs */
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: purple;
+}
+
+p{
+    font-family: Georgia, serif;
+}
+/* footer */
+.footer-list{
+    list-style: none;
+    display: inline;
+}
